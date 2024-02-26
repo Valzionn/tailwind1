@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: currentColor;
+  border-color: green;
   /* 2 */
 }
 
@@ -636,7 +636,7 @@ video {
 }
 
 .border-b-green-500 {
-  border-bottom-color: ##2ecc71;
+  border-bottom-color: #2ecc71;
 }
 
 .border-b-orange-500 {
