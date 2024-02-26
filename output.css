@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Graphik, sans-serif;
+  font-family: Oswald, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -135,7 +135,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
+  font-family: ui-monospace, "Kode mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
   /* 1 */
   font-feature-settings: normal;
   /* 2 */
@@ -562,12 +562,21 @@ video {
   bottom: 1.25rem;
 }
 
+.inset-y-1 {
+  top: 0.25rem;
+  bottom: 0.25rem;
+}
+
 .left-5 {
   left: 1.25rem;
 }
 
 .left-7 {
   left: 1.75rem;
+}
+
+.left-12 {
+  left: 3rem;
 }
 
 .line-clamp-6 {
@@ -749,17 +758,15 @@ video {
 }
 
 .font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
+  font-family: ui-monospace, "Kode mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
 }
 
-.text-base {
-  font-size: 16px;
-  line-height: 24px;
+.font-sans {
+  font-family: Oswald, sans-serif;
 }
 
-.text-lg {
-  font-size: 20px;
-  line-height: 28px;
+.font-serif {
+  font-family: Playfair Display, serif;
 }
 
 .text-sssxl {
@@ -767,9 +774,19 @@ video {
   line-height: 44px;
 }
 
+.text-ssxl {
+  font-size: 32px;
+  line-height: 40px;
+}
+
 .text-sxl {
   font-size: 28px;
   line-height: 36px;
+}
+
+.text-mega {
+  font-size: 48px;
+  line-height: 56px;
 }
 
 .font-semibold {
@@ -802,6 +819,10 @@ video {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .no-underline {

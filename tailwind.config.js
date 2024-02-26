@@ -21,9 +21,9 @@ module.exports = {
       violet: colors.violet
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-      mono: ['ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;']
+      sans: ['Oswald', 'sans-serif'],
+      serif: ['Playfair Display', 'serif'],
+      mono: ['ui-monospace, "Kode mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;']
     },
     fontSize: {
       sm: ['14px', '20px'],
@@ -33,6 +33,7 @@ module.exports = {
       sxl: ['28px', '36px'],
       ssxl: ['32px', '40px'],
       sssxl: ['36px', '44px'],
+      mega: ['48px', '56px']
     },
     extend: {
       spacing: {
