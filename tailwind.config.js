@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
 module.exports = {
   content: ["./index.html"],
   theme: {
@@ -10,13 +11,13 @@ module.exports = {
         500: '#ecf0f1'
       },
       green: {
-        500: '##2ecc71'
+        500: '#22c55e'
       },
       orange: {
         500: '#f39c12'
       },
       blue: {
-        500: '##3498db'
+        500: '#3b82f6'
       },
     },
     extend: {},
